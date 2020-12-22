@@ -1,10 +1,12 @@
 let sum = (a, b) => {
   return new Promise((resolve, reject) => {
-    if (typeof a != "number" | typeof b != "number") {
-      return reject("Giá trị truyền vào phải là số .");
-    }
-    resolve(a + b);
-  }, 1000);
+    setTimeout(() => {
+      if (typeof a != "number" || typeof b != "number") {
+        return reject("Giá trị truyền vào phải là số .");
+      }
+      resolve(a + b);
+    }, 1000);
+  });
 };
 
 let total = async () => {
@@ -16,7 +18,7 @@ let total = async () => {
   } catch (error) {
     console.log(error);
   }
-}
+};
 total();
 
 //------------------trường hợp chỉ gọi 1 lần--------------//
