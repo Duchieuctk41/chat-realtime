@@ -1,0 +1,22 @@
+{
+  "name": "chat-realtime",
+  "version": "1.0.0",
+  "description": "ung dung web chat-realtime",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duchieuctk41/chat-realtime.git"
+  },
+  "author": "HieuPencil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duchieuctk41/chat-realtime/issues"
+  },
+  "homepage": "https://github.com/Duchieuctk41/chat-realtime#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
